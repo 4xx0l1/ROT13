@@ -1,0 +1,5 @@
+CIAO
+Il software wiki è nato nel design pattern (schema progettuale, architetturale, di progettazione) di comunità web come una soluzione per scrivere e discutere pattern languages (espressione che può essere tradotta come «linguaggi relativi a un preciso contesto», in riferimento al mondo del software di programmazione). Il Portland Pattern Repository è stato il primo wiki, ideato da Ward Cunningham nel 1995[4]. Cunningham ha inventato il nome e il concetto wiki e ha prodotto la prima implementazione di un motore wiki.
+
+Alla fine del XX secolo, i wiki sono stati considerati come una strada promettente per sviluppare le basi di una conoscenza pubblica e privata ed è stato questo potenziale a ispirare il progetto dell'enciclopedia Nupedia, avviata da Jimmy Wales con Larry Sanger come caporedattore, usando la tecnologia wiki come base per un'enciclopedia elettronica: Wikipedia è stata lanciata nel gennaio 2001. Originariamente basata su un software UseMod, passò poi al suo attuale software open source MediaWiki, che è ora adottato da numerosi altri wiki.
+

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ROT13.vcxproj" Id="60088f14-b6dd-44ac-84b0-7976c4fcc539" />
+</Solution>
