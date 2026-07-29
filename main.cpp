@@ -21,6 +21,7 @@ int main()
 		cout << "\n4. To convert a txt file from rot13 to Text";
 		cout << "\n0. Exit the program\n";
 		cin >> choice;
+		cin.ignore(); // Ignore the newline character left in the input buffer
 
 		switch (choice)
 		{
@@ -31,7 +32,7 @@ int main()
 
 		case 1:
 			cout << "\nInsert the text you want to change: ";
-			cin >> str;
+			getline(cin, str);
 
 			if (!str.empty())
 			{
@@ -43,7 +44,7 @@ int main()
 
 		case 2:
 			cout << "\nInsert the text you want to convert: ";
-			cin >> str;
+			getline(cin, str);
 
 			if (!str.empty())
 			{
@@ -55,7 +56,7 @@ int main()
 
 		case 3:
 			cout << "\nInsert the path of the file you want to convert: ";
-			cin >> str;
+			getline(cin, str);
 
 			if (!str.empty())
 			{
@@ -68,7 +69,7 @@ int main()
 
 		case 4:
 			cout << "\nInsert the path of the file you want to convert: ";
-			cin >> str;
+			getline(cin, str);
 
 			if (!str.empty())
 			{

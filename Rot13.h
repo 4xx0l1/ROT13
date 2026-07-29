@@ -30,15 +30,15 @@ public:
 	// Function to shift a character by the specified shift value in reverse
 	string rot_shift_reverse(const string& str, int shift);
 
-	// Function to convert a text to rot47
-	string rot47(const string& str);
-
-	// Function to convert a text written in rot47 to a normal text
-	string rot47_reverse(const string& str);
-
 	// Function to convert a text file to rot13, it rewrites the file with the converted text
 	void convert_file_to_rot13(const std::string& input_file);
 
 	// Function to convert a text file from rot13 to normal text, it rewrites the file with the converted text
 	void convert_file_from_rot13(const std::string& input_file);
+
+	// Function to convert a text file by shifting the characters by the specified shift value, it rewrites the file with the converted text
+	void convert_file_with_shift(const std::string& input_file, int shift);
+
+	// Function to convert a text file from shifted text to normal text by shifting the characters back by the specified shift value, it rewrites the file with the converted text
+	void convert_file_from_shift(const std::string& input_file, int shift);
 };

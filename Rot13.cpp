@@ -31,8 +31,16 @@ string Rot13::rot13(const std::string& str)
 
 	for (int i = 0; i < s.size(); i++)
 	{
-		char c = char(int(s.at(i)) + 13);
-		s.at(i) = c;
+		if (s.at(i) >= 'a' && s.at(i) <= 'm' || s.at(i) >= 'A' && s.at(i) <= 'M')
+		{
+			char c = char(int(s.at(i)) + 13);
+			s.at(i) = c;
+		}
+		else if (s.at(i) >= 'n' && s.at(i) <= 'z' || s.at(i) >= 'N' && s.at(i) <= 'Z')
+		{
+			char c = char(int(s.at(i)) - 13);
+			s.at(i) = c;
+		}
 	}
 
 	return s;
@@ -45,8 +53,21 @@ string Rot13::rot13_reverse(const string& str)
 
 	for (int i = 0; i < s.size(); i++)
 	{
-		char c = char(int(s.at(i)) - 13); // Basically it works with char shifting of 13 positions
-		s.at(i) = c;
+		if (s.at(i) >= 'a' && s.at(i) <= 'm' || s.at(i) >= 'A' && s.at(i) <= 'M')
+		{
+			char c = char(int(s.at(i)) + 13);
+			s.at(i) = c;
+		}
+		else if (s.at(i) >= 'n' && s.at(i) <= 'z' || s.at(i) >= 'N' && s.at(i) <= 'Z')
+		{
+			char c = char(int(s.at(i)) - 13);
+			s.at(i) = c;
+		}
+		
+		if (s.at(i) == ' ')
+		{
+			s.at(i) = ' ';
+		}
 	}
 
 	return s;
@@ -59,8 +80,16 @@ string Rot13::rot_shift(const string& str, int shift)
 
 	for (int i = 0; i < s.size(); i++)
 	{
-		char c = char(int(s.at(i)) + shift);
-		s.at(i) = c;
+		if (s.at(i) >= 'a' && s.at(i) <= 'm' || s.at(i) >= 'A' && s.at(i) <= 'M')
+		{
+			char c = char(int(s.at(i)) + shift);
+			s.at(i) = c;
+		}
+		else if (s.at(i) >= 'n' && s.at(i) <= 'z' || s.at(i) >= 'N' && s.at(i) <= 'Z')
+		{
+			char c = char(int(s.at(i)) - shift);
+			s.at(i) = c;
+		}
 	}
 
 	return s;
@@ -73,8 +102,16 @@ string Rot13::rot_shift_reverse(const string& str, int shift)
 
 	for (int i = 0; i < s.size(); i++)
 	{
-		char c = char(int(s.at(i)) - shift);
-		s.at(i) = c;
+		if (s.at(i) >= 'a' && s.at(i) <= 'm' || s.at(i) >= 'A' && s.at(i) <= 'M')
+		{
+			char c = char(int(s.at(i)) - shift);
+			s.at(i) = c;
+		}
+		else if (s.at(i) >= 'n' && s.at(i) <= 'z' || s.at(i) >= 'N' && s.at(i) <= 'Z')
+		{
+			char c = char(int(s.at(i)) + shift);
+			s.at(i) = c;
+		}
 	}
 
 	return s;
@@ -121,3 +158,11 @@ void Rot13::convert_file_from_rot13(const string& input_file)
 		output_file.close(); // Close the output file
 	}
 }
+
+void Rot13::convert_file_with_shift(const std::string& input_file, int shift)
+{
+
+}
+
+void Rot13::convert_file_from_shift(const std::string & input_file, int shift)
+{}
