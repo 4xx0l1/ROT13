@@ -1,0 +1,363 @@
+## Vtaber Ivfhny Fghqvb grzcbenel svyrf, ohvyq erfhygf, naq
+## svyrf trarengrq ol cbchyne Ivfhny Fghqvb nqq-baf.
+##
+## Trg yngrfg sebz uggcf://tvguho.pbz/tvguho/tvgvtaber/oybo/znfgre/IvfhnyFghqvb.tvgvtaber
+
+# Hfre-fcrpvsvp svyrf
+*.efhfre
+*.fhb
+*.hfre
+*.hfrebffpnpur
+*.fya.qbpfgngrf
+
+# Hfre-fcrpvsvp svyrf (ZbabQrirybc/Knzneva Fghqvb)
+*.hfrecersf
+
+# Zbab nhgb trarengrq svyrf
+zbab_penfu.*
+
+# Ohvyq erfhygf
+[Qq]roht/
+[Qq]rohtChoyvp/
+[Ee]ryrnfr/
+[Ee]ryrnfrf/
+k64/
+k86/
+[Jj][Vv][Aa]32/
+[Nn][Ee][Zz]/
+[Nn][Ee][Zz]64/
+oyq/
+[Oo]va/
+[Bb]ow/
+[Bb]hg/
+[Yy]bt/
+[Yy]btf/
+
+# Ivfhny Fghqvb 2015/2017 pnpur/bcgvbaf qverpgbel
+.if/
+# Hapbzzrag vs lbh unir gnfxf gung perngr gur cebwrpg'f fgngvp svyrf va jjjebbg
+#jjjebbg/
+
+# Ivfhny Fghqvb 2017 nhgb trarengrq svyrf
+Trarengrq\ Svyrf/
+
+# ZFGrfg grfg Erfhygf
+[Gg]rfg[Ee]rfhyg*/
+[Oo]hvyq[Yy]bt.*
+
+# AHavg
+*.IvfhnyFgngr.kzy
+GrfgErfhyg.kzy
+ahavg-*.kzy
+
+# Ohvyq Erfhygf bs na NGY Cebwrpg
+[Qq]rohtCF/
+[Ee]ryrnfrCF/
+qyyqngn.p
+
+# Orapuznex Erfhygf
+OrapuznexQbgArg.Negvsnpgf/
+
+# .ARG Pber
+cebwrpg.ybpx.wfba
+cebwrpg.sentzrag.ybpx.wfba
+negvsnpgf/
+
+# NFC.ARG Fpnssbyqvat
+FpnssbyqvatErnqZr.gkg
+
+# FglyrPbc
+FglyrPbcErcbeg.kzy
+
+# Svyrf ohvyg ol Ivfhny Fghqvb
+*_v.p
+*_c.p
+*_u.u
+*.vyx
+*.zrgn
+*.bow
+*.vbow
+*.cpu
+*.cqo
+*.vcqo
+*.ctp
+*.ctq
+*.efc
+*.foe
+*.gyo
+*.gyv
+*.gyu
+*.gzc
+*.gzc_cebw
+*_jcsgzc.pfcebw
+*.ybt
+*.ifcfpp
+*.ifffpp
+.ohvyqf
+*.cvqo
+*.fipybt
+*.fpp
+
+# Puhgmcnu Grfg svyrf
+_Puhgmcnu*
+
+# Ivfhny P++ pnpur svyrf
+vcpu/
+*.ncf
+*.apo
+*.bcraqo
+*.bcrafqs
+*.fqs
+*.pnpursvyr
+*.IP.qo
+*.IP.IP.bcraqo
+
+# Ivfhny Fghqvb cebsvyre
+*.cfrff
+*.ifc
+*.ifck
+*.fnc
+
+# Ivfhny Fghqvb Genpr Svyrf
+*.r2r
+
+# GSF 2012 Ybpny Jbexfcnpr
+$gs/
+
+# Thvqnapr Nhgbzngvba Gbbyxvg
+*.tcFgngr
+
+# ErFunecre vf n .ARG pbqvat nqq-va
+_ErFunecre*/
+*.[Ee]r[Ff]unecre
+*.QbgFrggvatf.hfre
+
+# GrnzPvgl vf n ohvyq nqq-va
+_GrnzPvgl*
+
+# QbgPbire vf n Pbqr Pbirentr Gbby
+*.qbgPbire
+
+# NkbPbire vf n Pbqr Pbirentr Gbby
+.nkbPbire/*
+!.nkbPbire/frggvatf.wfba
+
+# Pbireyrg vf n serr, pebff cyngsbez Pbqr Pbirentr Gbby
+pbirentr*.wfba
+pbirentr*.kzy
+pbirentr*.vasb
+
+# Ivfhny Fghqvb pbqr pbirentr erfhygf
+*.pbirentr
+*.pbirentrkzy
+
+# APehapu
+_APehapu_*
+.*pehapu*.ybpny.kzy
+aPehapuGrzc_*
+
+# ZvtuglZbbfr
+*.zz.*
+NhgbGrfg.Arg/
+
+# Jro jbexorapu (fnff)
+.fnff-pnpur/
+
+# Vafgnyyfuvryq bhgchg sbyqre
+[Rr]kcerff/
+
+# QbpCebwrpg vf n qbphzragngvba trarengbe nqq-va
+QbpCebwrpg/ohvyquryc/
+QbpCebwrpg/Uryc/*.UkG
+QbpCebwrpg/Uryc/*.UkP
+QbpCebwrpg/Uryc/*.uup
+QbpCebwrpg/Uryc/*.uux
+QbpCebwrpg/Uryc/*.uuc
+QbpCebwrpg/Uryc/Ugzy2
+QbpCebwrpg/Uryc/ugzy
+
+# Pyvpx-Bapr qverpgbel
+choyvfu/
+
+# Choyvfu Jro Bhgchg
+*.[Cc]hoyvfu.kzy
+*.nmherChokzy
+# Abgr: Pbzzrag gur arkg yvar vs lbh jnag gb purpxva lbhe jro qrcybl frggvatf,
+# ohg qngnonfr pbaarpgvba fgevatf (jvgu cbgragvny cnffjbeqf) jvyy or harapelcgrq
+*.chokzy
+*.choyvfucebw
+
+# Zvpebfbsg Nmher Jro Ncc choyvfu frggvatf. Pbzzrag gur arkg yvar vs lbh jnag gb
+# purpxva lbhe Nmher Jro Ncc choyvfu frggvatf, ohg frafvgvir vasbezngvba pbagnvarq
+# va gurfr fpevcgf jvyy or harapelcgrq
+ChoyvfuFpevcgf/
+
+# AhTrg Cnpxntrf
+*.ahcxt
+# AhTrg Flzoby Cnpxntrf
+*.fahcxt
+# Gur cnpxntrf sbyqre pna or vtaberq orpnhfr bs Cnpxntr Erfgber
+**/[Cc]npxntrf/*
+# rkprcg ohvyq/, juvpu vf hfrq nf na ZFOhvyq gnetrg.
+!**/[Cc]npxntrf/ohvyq/
+# Hapbzzrag vs arprffnel ubjrire trarenyyl vg jvyy or ertrarengrq jura arrqrq
+#!**/[Cc]npxntrf/ercbfvgbevrf.pbasvt
+# AhTrg i3'f cebwrpg.wfba svyrf cebqhprf zber vtabenoyr svyrf
+*.ahtrg.cebcf
+*.ahtrg.gnetrgf
+
+# Zvpebfbsg Nmher Ohvyq Bhgchg
+pfk/
+*.ohvyq.pfqrs
+
+# Zvpebfbsg Nmher Rzhyngbe
+rps/
+eps/
+
+# Jvaqbjf Fgber ncc cnpxntr qverpgbevrf naq svyrf
+NccCnpxntrf/
+OhaqyrNegvsnpgf/
+Cnpxntr.FgberNffbpvngvba.kzy
+_cxtvasb.gkg
+*.ncck
+*.ncckohaqyr
+*.ncckhcybnq
+
+# Ivfhny Fghqvb pnpur svyrf
+# svyrf raqvat va .pnpur pna or vtaberq
+*.[Pp]npur
+# ohg xrrc genpx bs qverpgbevrf raqvat va .pnpur
+!?*.[Pp]npur/
+
+# Bguref
+PyvragOva/
+~$*
+*~
+*.qozqy
+*.qocebw.fpurznivrj
+*.wsz
+*.csk
+*.choyvfufrggvatf
+beyrnaf.pbqrtra.pf
+
+# Vapyhqvat fgebat anzr svyrf pna cerfrag n frphevgl evfx
+# (uggcf://tvguho.pbz/tvguho/tvgvtaber/chyy/2483#vffhr-259490424)
+#*.fax
+
+# Fvapr gurer ner zhygvcyr jbexsybjf, hapbzzrag arkg yvar gb vtaber objre_pbzcbaragf
+# (uggcf://tvguho.pbz/tvguho/tvgvtaber/chyy/1529#vffhrpbzzrag-104372622)
+#objre_pbzcbaragf/
+
+# EVN/Fvyireyvtug cebwrpgf
+Trarengrq_Pbqr/
+
+# Onpxhc & ercbeg svyrf sebz pbairegvat na byq cebwrpg svyr
+# gb n arjre Ivfhny Fghqvb irefvba. Onpxhc svyrf ner abg arrqrq,
+# orpnhfr jr unir tvg ;-)
+_HctenqrErcbeg_Svyrf/
+Onpxhc*/
+HctenqrYbt*.KZY
+HctenqrYbt*.ugz
+FreivprSnoevpOnpxhc/
+*.ecgcebw.onx
+
+# FDY Freire svyrf
+*.zqs
+*.yqs
+*.aqs
+
+# Ohfvarff Vagryyvtrapr cebwrpgf
+*.eqy.qngn
+*.ovz.ynlbhg
+*.ovz_*.frggvatf
+*.ecgcebw.efhfre
+*- [Oo]npxhc.eqy
+*- [Oo]npxhc ([0-9]).eqy
+*- [Oo]npxhc ([0-9][0-9]).eqy
+
+# Zvpebfbsg Snxrf
+SnxrfNffrzoyvrf/
+
+# TubfgQbp cyhtva frggvat svyr
+*.TubfgQbp.kzy
+
+# Abqr.wf Gbbyf sbe Ivfhny Fghqvb
+.agif_nanylfvf.qng
+abqr_zbqhyrf/
+
+# Ivfhny Fghqvb 6 ohvyq ybt
+*.cyt
+
+# Ivfhny Fghqvb 6 jbexfcnpr bcgvbaf svyr
+*.bcg
+
+# Ivfhny Fghqvb 6 nhgb-trarengrq jbexfcnpr svyr (pbagnvaf juvpu svyrf jrer bcra rgp.)
+*.ioj
+
+# Ivfhny Fghqvb YvtugFjvgpu ohvyq bhgchg
+**/*.UGZYPyvrag/TrarengrqNegvsnpgf
+**/*.QrfxgbcPyvrag/TrarengrqNegvsnpgf
+**/*.QrfxgbcPyvrag/ZbqryZnavsrfg.kzy
+**/*.Freire/TrarengrqNegvsnpgf
+**/*.Freire/ZbqryZnavsrfg.kzy
+_Cig_Rkgrafvbaf
+
+# Cnxrg qrcraqrapl znantre
+.cnxrg/cnxrg.rkr
+cnxrg-svyrf/
+
+# SNXR - S# Znxr
+.snxr/
+
+# PbqrEhfu crefbany frggvatf
+.pe/crefbany
+
+# Clguba Gbbyf sbe Ivfhny Fghqvb (CGIF)
+__clpnpur__/
+*.clp
+
+# Pnxr - Hapbzzrag vs lbh ner hfvat vg
+# gbbyf/**
+# !gbbyf/cnpxntrf.pbasvt
+
+# Gnof Fghqvb
+*.gff
+
+# Gryrevx'f WhfgZbpx pbasvthengvba svyr
+*.wzpbasvt
+
+# OvmGnyx ohvyq bhgchg
+*.ogc.pf
+*.ogz.pf
+*.bqk.pf
+*.kfq.pf
+
+# BcraPbire HV nanylfvf erfhygf
+BcraPbire/
+
+# Nmher Fgernz Nanylgvpf ybpny eha bhgchg
+NFNYbpnyEha/
+
+# ZFOhvyq Ovanel naq Fgehpgherq Ybt
+*.ovaybt
+
+# AIvqvn Afvtug TCH qrohttre pbasvthengvba svyr
+*.aihfre
+
+# ZSenpgbef (Knzneva cebqhpgvivgl gbby) jbexvat sbyqre
+.zsenpgbe/
+
+# Ybpny Uvfgbel sbe Ivfhny Fghqvb
+.ybpnyuvfgbel/
+
+# OrngChyfr urnygupurpx grzc qngnonfr
+urnygupurpxfqo
+
+# Onpxhc sbyqre sbe Cnpxntr Ersrerapr Pbaireg gbby va Ivfhny Fghqvb 2017
+ZvtengvbaOnpxhc/
+
+# Vbavqr (pebff cyngsbez S# IF Pbqr gbbyf) jbexvat sbyqre
+.vbavqr/
+
+# Sbql - nhgb-trarengrq KZY fpurzn
+SbqlJrniref.kfq

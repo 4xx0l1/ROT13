@@ -14,7 +14,27 @@ int main()
 	while (true && exit)
 	{
 		// Menu of the program
-		cout << "This is a console converter with the system of rot13:";
+
+		std::cout << R"(
+			                                ,----,                        
+			              ,----..         ,/   .`|          .--,-``-.     
+			,-.----.     /   /   \      ,`   .'  :   ,---, /   /     '.   
+			\    /  \   /   .     :   ;    ;     /,`--.' |/ ../        ;  
+			;   :    \ .   /   ;.  \.'___,/    ,'/    /  :\ ``\  .`-    ' 
+			|   | .\ :.   ;   /  ` ;|    :     |:    |.' ' \___\/   \   : 
+			.   : |: |;   |  ; \ ; |;    |.';  ;`----':  |      \   :   | 
+			|   |  \ :|   :  | ; | '`----'  |  |   '   ' ;      /  /   /  
+			|   : .  /.   |  ' ' ' :    '   :  ;   |   | |      \  \   \  
+			;   | |  \'   ;  \; /  |    |   |  '   '   : ;  ___ /   :   | 
+			|   | ;\  \\   \  ',  /     '   :  |   |   | ' /   /\   /   : 
+			:   ' | \.' ;   :    /      ;   |.'    '   : |/ ,,/  ',-    . 
+			:   : :-'    \   \ .'       '---'      ;   |.'\ ''\        ;  
+			|   |.'       `---`                    '---'   \   \     .'   
+			`---'                                           `--`-,,-'     
+		)";
+
+
+		cout << "\nThis is a console converter with the system of rot13:";
 		cout << "\n1. To convert from Text to rot13";
 		cout << "\n2. To convert from rot13 to Text";
 		cout << "\n3. To convert a txt file to rot13";
