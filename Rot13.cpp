@@ -51,26 +51,7 @@ string Rot13::rot13_reverse(const string& str)
 {
 	string s = str;
 
-	for (int i = 0; i < s.size(); i++)
-	{
-		if (s.at(i) >= 'a' && s.at(i) <= 'm' || s.at(i) >= 'A' && s.at(i) <= 'M')
-		{
-			char c = char(int(s.at(i)) + 13);
-			s.at(i) = c;
-		}
-		else if (s.at(i) >= 'n' && s.at(i) <= 'z' || s.at(i) >= 'N' && s.at(i) <= 'Z')
-		{
-			char c = char(int(s.at(i)) - 13);
-			s.at(i) = c;
-		}
-		
-		if (s.at(i) == ' ')
-		{
-			s.at(i) = ' ';
-		}
-	}
-
-	return s;
+	return rot13(str); // Basically to decode the encrypted file or texts, you can use the rot13 'cause with thanks to the new method
 }
 
 string Rot13::rot_shift(const string& str, int shift)
@@ -152,7 +133,7 @@ void Rot13::convert_file_from_rot13(const string& input_file)
 	{
 		string line;
 		getline(file, line); // Read each line from the file
-		string converted_line = rot13_reverse(line); // Convert the line from rot13 to normal text
+		string converted_line = rot13(line); // Convert the line from rot13 to normal text
 		ofstream output_file("output.txt", ios::app); // Open the output file in append mode
 		output_file << converted_line << endl; // Print the converted line to the output file
 		output_file.close(); // Close the output file
@@ -161,8 +142,42 @@ void Rot13::convert_file_from_rot13(const string& input_file)
 
 void Rot13::convert_file_with_shift(const std::string& input_file, int shift)
 {
+	ifstream file(input_file); // Open the input file
 
+	if (!file.is_open())
+	{
+		cout << "Error opening file: " << input_file << endl;
+		return;
+	}
+
+	while (!file.eof())
+	{
+		string line;
+		getline(file, line); // Read each line from the file
+		string converted_line = rot_shift(line, shift); // Uses the method rot_shift(...) for each line
+		ofstream output_file("output.txt", ios::app); // Open the output file in append mode
+		output_file << converted_line << endl; // Print the converted line to the output file
+		output_file.close(); // Close the output file
+	}
 }
 
-void Rot13::convert_file_from_shift(const std::string & input_file, int shift)
-{}
+void Rot13::convert_file_from_shift(const std::string& input_file, int shift) 
+{
+	ifstream file(input_file); // Open the input file
+
+	if (!file.is_open())
+	{
+		cout << "Error opening file: " << input_file << endl;
+		return;
+	}
+
+	while (!file.eof())
+	{
+		string line;
+		getline(file, line); // Read each line from the file
+		string converted_line = rot_shift(line, shift); // Uses the method rot_shift(...) for each line
+		ofstream output_file("output.txt", ios::app); // Open the output file in append mode
+		output_file << converted_line << endl; // Print the converted line to the output file
+		output_file.close(); // Close the output file
+	}
+}
