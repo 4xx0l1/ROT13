@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// This program may give you some errors if you compile it with the old version of vs 2022, use the v145 C++
+
 int main()
 {
 	Rot13 rot13_converter = Rot13(); // Create an instance of the Rot13 class with default shift value of 13
@@ -50,6 +52,7 @@ int main()
 		case 0:
 			cout << "\nBYE";
 			exit = false;
+
 			break;
 
 		case 1:
@@ -101,11 +104,12 @@ int main()
 			else cout << "Value chosen is not valid";
 
 			break;
+
 		case 5:
 			cout << "\nInsert the path of the file you want to convert: ";
 			getline(cin, str);
 
-			cout << "\nInsert the value of the shift";
+			cout << "\nInsert the value of the shift: ";
 			cin >> shift;
 
 			if (!str.empty())
@@ -121,7 +125,7 @@ int main()
 			cout << "\nInsert the path of the file you want to convert: ";
 			getline(cin, str);
 
-			cout << "\nInsert the value of the shift";
+			cout << "\nInsert the value of the shift: ";
 			cin >> shift;
 
 			if (!str.empty())
@@ -135,5 +139,5 @@ int main()
 		}
 
 	}
-		return 0;
+	return 0;
 }
